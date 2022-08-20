@@ -97,7 +97,7 @@ html {
 
 @media(max-width:768px) {
     .header .container .menue-bar a {
-        font-size: 13px;
+        font-size: 11px;
         margin: 0;
         padding: 0 1px;
         letter-spacing: -1px;
