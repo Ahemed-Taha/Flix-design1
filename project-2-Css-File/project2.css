@@ -73,6 +73,36 @@ html {
     scale: 1.25;
 }
 
+.header .container .menue-bar {
+    position: absolute;
+    right: 17%;
+    transition: .3s;
+}
+
+.header .container .menue-bar a {
+    padding: 0 10px;
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--main-color);
+    transition: .5s;
+
+}
+
+.header .container .menue-bar a:hover {
+    display: inline-block;
+    scale: 1.4;
+}
+
+@media(max-width:768px) {
+    .header .container .menue-bar a {
+        font-size: 13px;
+        margin: 0;
+        padding: 0 1px;
+        letter-spacing: -1px;
+    }
+}
 
 
 
@@ -174,7 +204,7 @@ html {
     position: relative;
     background: url(../mountain.jpg);
     background-size: cover;
-    height: calc(100vh - 87.05px);
+    height: calc(100vh - 87.06px);
 }
 
 .intro {
